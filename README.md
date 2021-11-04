@@ -3,4 +3,5 @@
 
 heroku apin linkki
 
-https://dashboard.heroku.com/apps/herokuprojekti
+https://takaportti.herokuapp.com/
+
