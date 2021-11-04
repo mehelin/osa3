@@ -1,0 +1,49 @@
+{
+  "persons": [
+    {
+      "name": "Pumpuli",
+      "number": "0002222",
+      "id": 1
+    },
+    {
+      "name": "Rumpali",
+      "number": "0987654321",
+      "id": 2
+    },
+    {
+      "name": "Salmiakkitassu",
+      "number": "010101",
+      "id": 3
+    },
+    {
+      "name": "Heinähattu",
+      "number": "09091",
+      "id": 4
+    },
+    {
+      "name": " Vilttitossu",
+      "number": " 999",
+      "id": 5
+    },
+    {
+      "name": " Mustikkasuu",
+      "number": " 0999",
+      "id": 5
+    },
+    {
+      "name": "Minttusuklaatassu",
+      "number": "12345",
+      "id": 6
+    },
+    {
+      "name": "Pepe",
+      "number": "666666",
+      "id": 7
+    },
+    {
+      "name": "Hassuttelija",
+      "number": "555-666-777",
+      "id": 8
+    }
+  ]
+}
