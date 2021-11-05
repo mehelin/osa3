@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mehelin/osa3.git"
+    "url": "git+https://github.com/heroku/mehelin/osa3.git"
   },
   "keywords": [
     "phonebook"
