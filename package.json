@@ -4,21 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "index.js",
-    "dev": "index.js",
-    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
-    "build:ui": "rm -rf build && cd ../part2/phonebook/ && npm run build --prod && cp -r build ../osa3",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build:ui": "rm -rf build && cd /Users/mv/Developer/osa2/phonebook && npm run build --prod && cp -r build /Users/mv/Developer/osa3",
     "deploy": "git push heroku master",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
     "logs:prod": "heroku logs --tail",
     "lint": "eslint ."
   },
+  "proxy": "http://localhost:3001",
+
   "repository": {
     "type": "git",
-    "url": "osa3"
+    "url": "https://github.com/mehelin/osa3.git"
   },
   "author": "MH",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehelin/osa3/issues"
+  },
+  "homepage": "https://github.com/mehelin/osa3#readme",
+
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.6.0",
