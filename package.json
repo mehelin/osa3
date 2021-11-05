@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "index.js",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd /Users/mv/Developer/osa2/phonebook && npm run build --prod && cp -r build /Users/mv/Developer/osa3",
     "deploy": "git push heroku master",
