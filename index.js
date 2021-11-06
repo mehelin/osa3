@@ -1,12 +1,9 @@
-const cool = require('cool-ascii-faces');
 require('dotenv').config()
 const express = require('express')
 const app = express()
-    .get('/cool', (req, res) => res.send(cool()))
 const cors = require('cors')
 const Person = require('./models/person')
 const morgan = require('morgan')
-const PORT = process.env.PORT || 5000;
 
 
 // middlewaressit
