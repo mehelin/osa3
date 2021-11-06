@@ -3,5 +3,5 @@
 
 heroku apin linkki
 
-https://aqueous-citadel-55814.herokuapp.com/
+https://git.heroku.com/takaportti.git
 
