@@ -3,5 +3,5 @@
 
 heroku apin linkki
 
-hhttps://takaportti.herokuapp.com/
+hhttps://takaportti.herokuapp.com
 
